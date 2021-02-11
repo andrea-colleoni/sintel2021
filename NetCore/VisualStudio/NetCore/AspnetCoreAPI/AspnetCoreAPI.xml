@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspnetCoreAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AspnetCoreAPI.Controllers.PersoneAPIController.all">
+            <summary>
+            Ottiene l'elenco delle persone
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AspnetCoreAPI.Controllers.PersoneAPIController.byKey(System.String)">
+            <summary>
+            Ottiene una persona per chiave
+            </summary>
+            <param name="codiceFiscale">Codice fiscale della persona</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
