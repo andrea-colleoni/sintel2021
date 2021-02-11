@@ -8,7 +8,6 @@
 - Middleware: configure services e application builder
 - CLI tools
 - Unit testing
-- Sicurezza
 
 # Giorno 2 - Migrazione Net Framework > NET Core
 
@@ -17,6 +16,7 @@
 - Migrazione dei servizi (interfacce + servizi)
 - Configurazione dei nuovi servizi
 - Logging
+- Sicurezza
 - Unit testing
-- Blazor
+- Blazor?
 

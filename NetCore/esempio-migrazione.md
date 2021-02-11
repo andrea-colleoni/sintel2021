@@ -22,3 +22,28 @@
    - base(options)
  - Attributi custom utilizzati nel modello
  - Utilizzo di nuove funzioni ove possibile (e.g. EF.Functions.TextSearch())
+
+## Business layer
+
+- Rifattorizzare le classi di business per ricevere le dipendenze dall'injector di Net Core
+- Ripristinare le dependency del progetto legacy e di tutto lo stack soprastante
+
+## Testing
+
+
+
+## Controllers
+
+- using using Microsoft.AspNetCore.Mvc;
+- ApiController => Attribute
+- Controller : ControllerBase
+- private SiDb db = new SiDb(); => private SiDb db;
+- Dispose() => eliminare
+- IHttpActionResult => ActionResult
+- [ResponseType(typeof({Type}))] => ActionResult<{Type}>
+- HttpStatusCode.NoContent => StatusCodes.Status204NoContent
+
+## Links
+
+- [Jwt Auth in Net COre 5](https://github.com/dotnet-labs/JwtAuthDemo)
+- https://docs.microsoft.com/it-it/dotnet/standard/net-standard
